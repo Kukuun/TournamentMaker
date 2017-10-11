@@ -1,0 +1,13 @@
+D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\bin\Debug\Tournament.DataAccess.dll
+D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\bin\Debug\Tournament.DataAccess.pdb
+D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\obj\Debug\Tournament.DataAccess.csprojResolveAssemblyReference.cache
+D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\obj\Debug\Tournament.DataAccess.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\obj\Debug\Tournament.DataAccess.dll
+D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\obj\Debug\Tournament.DataAccess.pdb
+D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\bin\Debug\Tournament.DataAccess.dll.config
+D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\bin\Debug\EntityFramework.dll
+D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\bin\Debug\Tournament.Models.dll
+D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\bin\Debug\Tournament.Models.pdb
+D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\bin\Debug\EntityFramework.xml
+D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\bin\Debug\EntityFramework.SqlServer.xml

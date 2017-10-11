@@ -1,0 +1,6 @@
+D:\Projects\VisualStudio\Tournament\Tournament.Models\bin\Debug\Tournament.Models.dll
+D:\Projects\VisualStudio\Tournament\Tournament.Models\bin\Debug\Tournament.Models.pdb
+D:\Projects\VisualStudio\Tournament\Tournament.Models\obj\Debug\Tournament.Models.csprojResolveAssemblyReference.cache
+D:\Projects\VisualStudio\Tournament\Tournament.Models\obj\Debug\Tournament.Models.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\Tournament\Tournament.Models\obj\Debug\Tournament.Models.dll
+D:\Projects\VisualStudio\Tournament\Tournament.Models\obj\Debug\Tournament.Models.pdb
