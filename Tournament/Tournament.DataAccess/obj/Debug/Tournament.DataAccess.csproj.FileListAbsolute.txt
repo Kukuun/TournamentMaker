@@ -11,3 +11,16 @@ D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\bin\Debug\Tournament.M
 D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\bin\Debug\Tournament.Models.pdb
 D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\bin\Debug\EntityFramework.xml
 D:\Projects\VisualStudio\Tournament\Tournament.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.DataAccess\bin\Debug\Tournament.DataAccess.dll.config
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.DataAccess\bin\Debug\Tournament.DataAccess.dll
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.DataAccess\bin\Debug\Tournament.DataAccess.pdb
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.DataAccess\bin\Debug\EntityFramework.dll
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.DataAccess\bin\Debug\Tournament.Models.dll
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.DataAccess\bin\Debug\Tournament.Models.pdb
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.DataAccess\bin\Debug\EntityFramework.xml
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.DataAccess\obj\Debug\Tournament.DataAccess.csprojResolveAssemblyReference.cache
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.DataAccess\obj\Debug\Tournament.DataAccess.csproj.CoreCompileInputs.cache
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.DataAccess\obj\Debug\Tournament.DataAccess.dll
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.DataAccess\obj\Debug\Tournament.DataAccess.pdb
