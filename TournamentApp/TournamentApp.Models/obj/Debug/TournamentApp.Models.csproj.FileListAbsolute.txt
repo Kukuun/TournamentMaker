@@ -1,0 +1,12 @@
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.Models\bin\Debug\Tournament.Models.dll
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.Models\bin\Debug\Tournament.Models.pdb
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.Models\obj\Debug\TournamentApp.Models.csprojResolveAssemblyReference.cache
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.Models\obj\Debug\TournamentApp.Models.csproj.CoreCompileInputs.cache
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.Models\obj\Debug\Tournament.Models.dll
+D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.Models\obj\Debug\Tournament.Models.pdb
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.Models\bin\Debug\Tournament.Models.dll
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.Models\bin\Debug\Tournament.Models.pdb
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.Models\obj\Debug\TournamentApp.Models.csprojResolveAssemblyReference.cache
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.Models\obj\Debug\TournamentApp.Models.csproj.CoreCompileInputs.cache
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.Models\obj\Debug\Tournament.Models.dll
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.Models\obj\Debug\Tournament.Models.pdb

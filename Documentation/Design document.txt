@@ -1,0 +1,40 @@
+Tournament app:
+
+Projects:
+	- DataAccess.
+	- Model.
+	- Core.
+	- UI.Admin.
+	- Ui.Client.
+
+Layout:
+	- Player.
+		- Firstname.
+		- Alias.
+		- Lastname.
+		- Phone.
+		- Mail.
+	
+	- Team.
+		- Name
+		- ICollection<Player> Players. Not included in db.
+	
+	- Tournaments.
+		- Name.
+		- Game.
+		- ICollection<Prize> Prizes. Not included in db.
+		- ICollection<Team> Teams. Not included in db.
+		- ICollection<MatchUp> MatchUps. Not included in db.
+
+	- MatchUp.
+		- Name.
+		- ICollection<Team> Teams. Not included in db.
+		- Winner
+		- Result.
+
+Database:
+	- Players.
+	- Teams.
+	- Tournaments.
+	- Prizes.
+	- Games.
