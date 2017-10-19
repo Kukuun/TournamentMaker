@@ -17,20 +17,27 @@ Layout:
 	
 	- Team.
 		- Name
-		- ICollection<Player> Players. Not included in db.
+		- ICollection<Player> Players.
 	
 	- Tournaments.
 		- Name.
 		- Game.
-		- ICollection<Prize> Prizes. Not included in db.
-		- ICollection<Team> Teams. Not included in db.
-		- ICollection<MatchUp> MatchUps. Not included in db.
+		- ICollection<Prize> Prizes.
+		- ICollection<Team> Teams.
+		- ICollection<MatchUp> MatchUps.
 
 	- MatchUp.
 		- Name.
-		- ICollection<Team> Teams. Not included in db.
+		- ICollection<Match> Teams.
 		- Winner
-		- Result.
+			- 
+
+	- MatchUpEntry.
+		- CompetingTeam
+			- CompetingTeamPlayers
+				- Team.Id.
+				- Player.Id.
+		- Score
 
 Database:
 	- Players.
@@ -38,3 +45,19 @@ Database:
 	- Tournaments.
 	- Prizes.
 	- Games.
+
+
+
+
+
+
+
+
+
+
+List<AttendingTeams> Attendants.
+
+Matchup:
+	- Select 2 random teams from Attendants.
+	- Add to MatchupTeams.
+	- Remove from Attendants.

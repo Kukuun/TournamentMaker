@@ -10,10 +10,11 @@ namespace TournamentApp.Models {
 
         public Tournament Tournament { get; set; }
 
-        public ICollection<MatchUpEntry> CompetingTeams { get; set; }
+        [Required]
+        public ICollection<Team> CompetingTeams { get; set; }
 
         public MatchUp() {
-            CompetingTeams = new Collection<MatchUpEntry>();
+            CompetingTeams = new Collection<Team>();
         }
     }
 }

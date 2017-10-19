@@ -19,15 +19,18 @@ namespace TournamentApp.Models {
         public string LastName { get; set; }
 
         [Required]
-        public ICollection<PlayerPhoneNumber> PhoneNumber { get; set; }
+        [Phone]
+        public string PhoneNumber { get; set; }
 
         [Required]
         [EmailAddress]
         [StringLength(50)]
         public string Mail { get; set; }
 
+        public ICollection<Team> Teams { get; set; }
+
         public Player() {
-            PhoneNumber = new Collection<PlayerPhoneNumber>();
+            Teams = new Collection<Team>();
         }
     }
 }

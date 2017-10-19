@@ -9,7 +9,7 @@ namespace TournamentApp.Models {
         [Required]
         public string Name { get; set; }
 
-        public int? EntryFee { get; set; }
+        public int EntryFee { get; set; }
 
         public ICollection<Team> Teams { get; set; }
         public ICollection<MatchUp> MatchUps { get; set; }
