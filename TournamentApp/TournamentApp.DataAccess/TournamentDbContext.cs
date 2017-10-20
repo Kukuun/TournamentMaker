@@ -8,7 +8,7 @@ namespace TournamentApp.DataAccess {
         public DbSet<Team> Teams { get; set; }
         public DbSet<Prize> Prizes { get; set; }
         public DbSet<Tournament> Tournaments { get; set; }
-        public DbSet<MatchUp> MatchUps { get; set; }
+        public DbSet<Matchup> Matchups { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder) {
             base.OnModelCreating(modelBuilder);

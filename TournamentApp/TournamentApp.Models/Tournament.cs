@@ -11,14 +11,8 @@ namespace TournamentApp.Models {
 
         public int EntryFee { get; set; }
 
-        public ICollection<Team> Teams { get; set; }
-        public ICollection<MatchUp> MatchUps { get; set; }
-        public ICollection<Prize> Prizes { get; set; }
-
-        public Tournament() {
-            Teams = new Collection<Team>();
-            MatchUps = new Collection<MatchUp>();
-            Prizes = new Collection<Prize>();
-        }
+        public ICollection<Team> Teams { get; set; } = new Collection<Team>();
+        public ICollection<Matchup> Matchups { get; set; } = new Collection<Matchup>();
+        public ICollection<Prize> Prizes { get; set; } = new Collection<Prize>();
     }
 }

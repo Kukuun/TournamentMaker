@@ -24,6 +24,5 @@ D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\bin\
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\bin\Debug\Tournament.Models.pdb
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\bin\Debug\EntityFramework.xml
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
-D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\obj\Debug\TournamentApp.DataAccess.Migrations.initial.resources
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\obj\Debug\TournamentApp.DataAccess.Migrations.Initial.resources
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\obj\Debug\TournamentApp.DataAccess.csproj.GenerateResource.Cache
-D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\obj\Debug\TournamentApp.DataAccess.Migrations.FriendTableEdited.resources

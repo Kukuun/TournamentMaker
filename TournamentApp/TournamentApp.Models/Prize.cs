@@ -1,4 +1,6 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel.DataAnnotations;
 
 namespace TournamentApp.Models {
     public class Prize {
@@ -12,5 +14,11 @@ namespace TournamentApp.Models {
 
         [Required]
         public decimal prizeAmount { get; set; }
+
+        public ICollection<Tournament>  Tournaments { get; set; }
+
+        public Prize() {
+            Tournaments = new Collection<Tournament>();
+        }
     }
 }

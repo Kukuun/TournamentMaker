@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TournamentApp.Models {
     public class Team {
@@ -10,10 +11,9 @@ namespace TournamentApp.Models {
         [StringLength(50)]
         public string Name { get; set; }
 
-        public ICollection<Player> Players { get; set; }
-
-        public Team() {
-            Players = new Collection<Player>();
-        }
+        public ICollection<Player> Players { get; set; } = new Collection<Player>();
+        [InverseProperty("Teams")]
+        public ICollection<Matchup> Matchups { get; set; } = new Collection<Matchup>();
+        public ICollection<Tournament> Tournaments { get; set; } = new Collection<Tournament>();
     }
 }

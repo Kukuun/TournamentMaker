@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MatchUp.cs" />
+    <Compile Include="Matchup.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Prize.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

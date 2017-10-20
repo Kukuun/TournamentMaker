@@ -47,13 +47,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201710191715095_initial.cs" />
-    <Compile Include="Migrations\201710191715095_initial.Designer.cs">
-      <DependentUpon>201710191715095_initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201710191948485_FriendTableEdited.cs" />
-    <Compile Include="Migrations\201710191948485_FriendTableEdited.Designer.cs">
-      <DependentUpon>201710191948485_FriendTableEdited.cs</DependentUpon>
+    <Compile Include="Migrations\201710201915211_Initial.cs" />
+    <Compile Include="Migrations\201710201915211_Initial.Designer.cs">
+      <DependentUpon>201710201915211_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,11 +68,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201710191715095_initial.resx">
-      <DependentUpon>201710191715095_initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201710191948485_FriendTableEdited.resx">
-      <DependentUpon>201710191948485_FriendTableEdited.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201710201915211_Initial.resx">
+      <DependentUpon>201710201915211_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -99,15 +99,15 @@ namespace TournamentApp.DataAccess.Migrations {
                         context.Teams.SingleOrDefault(t => t.Name == "PA"),
                         context.Teams.SingleOrDefault(t => t.Name == "Diverse"),
                     },
-                    MatchUps = new List<MatchUp> {
-                        new MatchUp {
-                            CompetingTeams = new List<Team> {
+                    Matchups = new List<Matchup> {
+                        new Matchup {
+                            Teams = new List<Team> {
                             context.Teams.SingleOrDefault(t => t.Name == "AaB"),
                             context.Teams.SingleOrDefault(t => t.Name == "Storvorde")
                             }
                         },
-                        new MatchUp {
-                            CompetingTeams = new List<Team> {
+                        new Matchup {
+                            Teams = new List<Team> {
                                 context.Teams.SingleOrDefault(t => t.Name == "PA"),
                                 context.Teams.SingleOrDefault(t => t.Name == "Diverse")
                             }
