@@ -1,8 +1,8 @@
 ﻿using Autofac;
 using System;
 using System.Windows;
-using TournamentApp.UI.Startup;
-using TournamentApp.UI.Views;
+using TournamentApp.UI.Admin.Startup;
+using TournamentApp.UI.Admin.Views;
 
 namespace TournamentApp.UI {
     /// <summary>

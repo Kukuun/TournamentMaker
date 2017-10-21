@@ -12,9 +12,9 @@ D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.DataAccess\obj\Debug\
 D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.DataAccess\obj\Debug\Tournament.DataAccess.dll
 D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.DataAccess\obj\Debug\Tournament.DataAccess.pdb
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\obj\Debug\TournamentApp.DataAccess.csprojResolveAssemblyReference.cache
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\obj\Debug\TournamentApp.DataAccess.Migrations.Initial.resources
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\obj\Debug\TournamentApp.DataAccess.csproj.GenerateResource.Cache
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\obj\Debug\TournamentApp.DataAccess.csproj.CoreCompileInputs.cache
-D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\obj\Debug\Tournament.DataAccess.dll
-D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\obj\Debug\Tournament.DataAccess.pdb
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\bin\Debug\Tournament.DataAccess.dll.config
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\bin\Debug\Tournament.DataAccess.dll
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\bin\Debug\Tournament.DataAccess.pdb
@@ -24,5 +24,5 @@ D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\bin\
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\bin\Debug\Tournament.Models.pdb
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\bin\Debug\EntityFramework.xml
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
-D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\obj\Debug\TournamentApp.DataAccess.Migrations.Initial.resources
-D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\obj\Debug\TournamentApp.DataAccess.csproj.GenerateResource.Cache
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\obj\Debug\Tournament.DataAccess.dll
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.DataAccess\obj\Debug\Tournament.DataAccess.pdb

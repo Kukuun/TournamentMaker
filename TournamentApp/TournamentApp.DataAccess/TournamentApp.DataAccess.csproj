@@ -62,15 +62,15 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Migrations\201710201915211_Initial.resx">
+      <DependentUpon>201710201915211_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\TournamentApp.Models\TournamentApp.Models.csproj">
       <Project>{27e3773c-db15-4501-ab0f-8e06a2fb25aa}</Project>
       <Name>TournamentApp.Models</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201710201915211_Initial.resx">
-      <DependentUpon>201710201915211_Initial.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
