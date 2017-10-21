@@ -71,8 +71,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Interfaces\IFriendDataService.cs" />
+    <Compile Include="Data\PlayerDataService.cs" />
+    <Compile Include="Interfaces\IPlayerDataService.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="ViewModels\ViewModelBase.cs" />
     <Compile Include="Views\BracketView.xaml.cs">
       <DependentUpon>BracketView.xaml</DependentUpon>
     </Compile>
@@ -104,7 +106,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Startup\Bootstrapper.cs" />
-    <Compile Include="ViewModels\ViewModelBase.cs" />
     <Compile Include="Views\MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>

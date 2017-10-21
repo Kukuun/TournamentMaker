@@ -18,8 +18,8 @@ namespace TournamentApp.UI.Admin.Views {
             Loaded += MainViewModel_Loaded;
         }
 
-        private void MainViewModel_Loaded(object sender, RoutedEventArgs e) {
-            //throw new NotImplementedException();
+        private async void MainViewModel_Loaded(object sender, RoutedEventArgs e) {
+            await _viewModel.LoadAsync();
         }
     }
 }

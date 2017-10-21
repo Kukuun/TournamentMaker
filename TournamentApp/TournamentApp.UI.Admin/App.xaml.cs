@@ -4,7 +4,7 @@ using System.Windows;
 using TournamentApp.UI.Admin.Startup;
 using TournamentApp.UI.Admin.Views;
 
-namespace TournamentApp.UI {
+namespace TournamentApp.UI.Admin {
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>

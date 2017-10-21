@@ -7,6 +7,25 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="720" Width="1280">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <ListView Width="200" Height="200" ItemsSource="{Binding Players}"
+                  SelectedItem="{Binding SelectedPlayer}"
+                  DisplayMemberPath="FirstName"/>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Label Width="100" Height="50" 
+               Content="{Binding SelectedPlayer.FirstName, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+               Margin="10"/>
+            <Label Width="100" Height="50" 
+               Content="{Binding SelectedPlayer.Alias, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+               Margin="10"/>
+            <Label Width="100" Height="50" 
+               Content="{Binding SelectedPlayer.LastName, Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+               Margin="10"/>
+        </StackPanel>
         
     </Grid>
 </Window>

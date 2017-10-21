@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using TournamentApp.Models;
 
 namespace Tournament.UI.Admin.Interfaces {
-    public interface IFriendDataService {
-        IEnumerable<Player> GetAll();
+    public interface IPlayerDataService {
+        Task<List<Player>> GetAllAsync();
     }
 }

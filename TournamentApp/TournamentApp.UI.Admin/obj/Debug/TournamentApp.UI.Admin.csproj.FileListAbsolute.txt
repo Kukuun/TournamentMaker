@@ -61,3 +61,8 @@ D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\obj\De
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\obj\Debug\TournamentApp.UI.Admin.csproj.CoreCompileInputs.cache
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\obj\Debug\Tournament.UI.Admin.exe
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\obj\Debug\Tournament.UI.Admin.pdb
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\bin\Debug\Tournament.DataAccess.dll
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\bin\Debug\Tournament.Models.dll
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\bin\Debug\Tournament.DataAccess.pdb
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\bin\Debug\Tournament.DataAccess.dll.config
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\bin\Debug\Tournament.Models.pdb
