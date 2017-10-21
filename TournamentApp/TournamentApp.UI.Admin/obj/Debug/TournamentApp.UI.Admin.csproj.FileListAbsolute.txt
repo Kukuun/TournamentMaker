@@ -54,3 +54,9 @@ D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\obj\De
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\obj\Debug\TournamentApp.UI.Admin.csproj.CoreCompileInputs.cache
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\obj\Debug\Tournament.UI.Admin.exe
 D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\obj\Debug\Tournament.UI.Admin.pdb
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\obj\Debug\Views\NewPlayerView.g.cs
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\obj\Debug\Views\NewTeamView.g.cs
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\obj\Debug\Views\NewTournamentView.g.cs
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\obj\Debug\Views\NewPlayerView.baml
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\obj\Debug\Views\NewTeamView.baml
+D:\Projects\SourceTree\TournamentWPF\TournamentApp\TournamentApp.UI.Admin\obj\Debug\Views\NewTournamentView.baml

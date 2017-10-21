@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="Tournament.UI.Admin.Views.NewPlayerView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Tournament.UI.Admin.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="New Player" FontSize="25" Margin="5"/>
+        
+        <!--Labels-->
+        <Label Grid.Row="1" Content="Firstname" FontSize="15" Margin="5"/>
+        <Label Grid.Row="2" Content="Alias" FontSize="15" Margin="5"/>
+        <Label Grid.Row="3" Content="Lastname" FontSize="15" Margin="5"/>
+        <Label Grid.Row="4" Content="Phone" FontSize="15" Margin="5"/>
+        <Label Grid.Row="5" Content="Mail" FontSize="15" Margin="5"/>
+
+        <!--Textboxes-->
+        <TextBox Grid.Row="1" Grid.Column="1" Text="Poul" FontSize="15" TextAlignment="Center" Margin="5"/>
+        <TextBox Grid.Row="2" Grid.Column="1" Text="Kukuun" FontSize="15" TextAlignment="Center" Margin="5"/>
+        <TextBox Grid.Row="3" Grid.Column="1" Text="Munk" FontSize="15" TextAlignment="Center" Margin="5"/>
+        <TextBox Grid.Row="4" Grid.Column="1" Text="+45 20418157" FontSize="15" TextAlignment="Center" Margin="5"/>
+        <TextBox Grid.Row="5" Grid.Column="1" Text="pmunk87@gmail.com" FontSize="15" TextAlignment="Center" Margin="5"/>
+
+        <!-- Button(s)-->
+        <Button Grid.Row="7" Grid.Column="1" Content="Create player" FontSize="15" Margin="5"/>
+
+    </Grid>
+</UserControl>

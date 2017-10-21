@@ -67,6 +67,28 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Views\BracketView.xaml.cs">
+      <DependentUpon>BracketView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewPlayerView.xaml.cs">
+      <DependentUpon>NewPlayerView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewTeamView.xaml.cs">
+      <DependentUpon>NewTeamView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\NewTournamentView.xaml.cs">
+      <DependentUpon>NewTournamentView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlayerDetailView.xaml.cs">
+      <DependentUpon>PlayerDetailView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TeamDetailView.xaml.cs">
+      <DependentUpon>TeamDetailView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Views\BracketView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -81,6 +103,26 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\NewPlayerView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewTeamView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\NewTournamentView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PlayerDetailView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TeamDetailView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
