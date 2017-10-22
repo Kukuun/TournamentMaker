@@ -1,6 +1,0 @@
-D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.Models\bin\Release\Tournament.Models.dll
-D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.Models\bin\Release\Tournament.Models.pdb
-D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.Models\obj\Release\Tournament.Models.csprojResolveAssemblyReference.cache
-D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.Models\obj\Release\Tournament.Models.csproj.CoreCompileInputs.cache
-D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.Models\obj\Release\Tournament.Models.dll
-D:\Projects\SourceTree\TournamentWPF\Tournament\Tournament.Models\obj\Release\Tournament.Models.pdb

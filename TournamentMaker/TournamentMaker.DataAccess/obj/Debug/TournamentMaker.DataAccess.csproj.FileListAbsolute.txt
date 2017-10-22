@@ -1,0 +1,16 @@
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.DataAccess\bin\Debug\TournamentMaker.DataAccess.dll.config
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.DataAccess\bin\Debug\TournamentMaker.DataAccess.dll
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.DataAccess\bin\Debug\TournamentMaker.DataAccess.pdb
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.DataAccess\bin\Debug\EntityFramework.dll
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.DataAccess\bin\Debug\TournamentMaker.Models.dll
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.DataAccess\bin\Debug\TournamentMaker.Models.pdb
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.DataAccess\bin\Debug\TournamentMaker.Models.dll.config
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.DataAccess\bin\Debug\EntityFramework.xml
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.DataAccess\obj\Debug\TournamentMaker.DataAccess.csprojResolveAssemblyReference.cache
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.DataAccess\obj\Debug\TournamentMaker.DataAccess.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.DataAccess\obj\Debug\TournamentMaker.DataAccess.dll
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.DataAccess\obj\Debug\TournamentMaker.DataAccess.pdb
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.DataAccess\obj\Debug\TournamentMaker.DataAccess.Migrations.InitialMigration.resources
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.DataAccess\obj\Debug\TournamentMaker.DataAccess.csproj.GenerateResource.Cache

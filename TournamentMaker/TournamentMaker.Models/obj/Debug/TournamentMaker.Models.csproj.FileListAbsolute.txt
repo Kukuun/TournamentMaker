@@ -1,0 +1,7 @@
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.Models\bin\Debug\TournamentMaker.Models.dll.config
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.Models\bin\Debug\TournamentMaker.Models.dll
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.Models\bin\Debug\TournamentMaker.Models.pdb
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.Models\obj\Debug\TournamentMaker.Models.csprojResolveAssemblyReference.cache
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.Models\obj\Debug\TournamentMaker.Models.csproj.CoreCompileInputs.cache
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.Models\obj\Debug\TournamentMaker.Models.dll
+D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.Models\obj\Debug\TournamentMaker.Models.pdb

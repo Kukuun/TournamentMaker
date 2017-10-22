@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentMaker.UI.Admin", "TournamentMaker.UI.Admin\TournamentMaker.UI.Admin.csproj", "{31931E3A-01AE-4C62-A8C8-3E0E9CEAAEE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentMaker.Models", "TournamentMaker.Models\TournamentMaker.Models.csproj", "{83B459A0-D1BB-4C24-963A-2D61C60E0EB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TournamentMaker.DataAccess", "TournamentMaker.DataAccess\TournamentMaker.DataAccess.csproj", "{44162B97-3FD1-456B-96D9-915C45F186A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31931E3A-01AE-4C62-A8C8-3E0E9CEAAEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31931E3A-01AE-4C62-A8C8-3E0E9CEAAEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31931E3A-01AE-4C62-A8C8-3E0E9CEAAEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31931E3A-01AE-4C62-A8C8-3E0E9CEAAEE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83B459A0-D1BB-4C24-963A-2D61C60E0EB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83B459A0-D1BB-4C24-963A-2D61C60E0EB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83B459A0-D1BB-4C24-963A-2D61C60E0EB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83B459A0-D1BB-4C24-963A-2D61C60E0EB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44162B97-3FD1-456B-96D9-915C45F186A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44162B97-3FD1-456B-96D9-915C45F186A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44162B97-3FD1-456B-96D9-915C45F186A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44162B97-3FD1-456B-96D9-915C45F186A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B138FA1-0F00-470B-9262-0401BF8BBB53}
+	EndGlobalSection
+EndGlobal
