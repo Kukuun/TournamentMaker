@@ -5,33 +5,16 @@ using TournamentMaker.UI.Admin.Data;
 
 namespace TournamentMaker.UI.Admin.ViewModels {
     public class MainViewModel : ViewModelBase {
-        private IPlayerDataService _playerDataService;
-        private Player _selectedPlayer;
-
-        public Player SelectedPlayer {
-            get { return _selectedPlayer; }
-            set {
-                _selectedPlayer = value;
-                OnPropertyChanged();
-            }
-        }
+        public IPlayerViewModel PlayerViewModel { get; set; }
 
         public ObservableCollection<Player> Players { get; set; }
 
-        public MainViewModel(IPlayerDataService playerDataService) {
-            _playerDataService = playerDataService;
-
-            Players = new ObservableCollection<Player>();
+        public MainViewModel(IPlayerViewModel playerViewModel) {
+            PlayerViewModel = playerViewModel;
         }
 
         public async Task LoadAsync() {
-            var players = await _playerDataService.GetAllAsync();
-
-            Players.Clear();
-
-            foreach (var player in players) {
-                Players.Add(player);
-            }
+            await PlayerViewModel.LoadAsync();
         }
     }
 }

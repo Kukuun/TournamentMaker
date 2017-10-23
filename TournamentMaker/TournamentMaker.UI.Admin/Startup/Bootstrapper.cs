@@ -13,7 +13,9 @@ namespace TournamentMaker.UI.Admin.Startup {
             builder.RegisterType<MainWindow>().AsSelf();
 
             builder.RegisterType<MainViewModel>().AsSelf();
+            builder.RegisterType<PlayerViewModel>().As<IPlayerViewModel>();
 
+            builder.RegisterType<LookupDataService>().AsImplementedInterfaces();
             builder.RegisterType<PlayerDataService>().As<IPlayerDataService>();
 
             return builder.Build();

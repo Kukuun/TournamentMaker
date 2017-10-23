@@ -5,3 +5,9 @@ D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.Models\obj\Debug\Tourna
 D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.Models\obj\Debug\TournamentMaker.Models.csproj.CoreCompileInputs.cache
 D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.Models\obj\Debug\TournamentMaker.Models.dll
 D:\Projects\VisualStudio\TournamentMaker\TournamentMaker.Models\obj\Debug\TournamentMaker.Models.pdb
+E:\projects\Sourcetree\TournamentMaker\TournamentMaker\TournamentMaker.Models\bin\Debug\TournamentMaker.Models.dll.config
+E:\projects\Sourcetree\TournamentMaker\TournamentMaker\TournamentMaker.Models\bin\Debug\TournamentMaker.Models.dll
+E:\projects\Sourcetree\TournamentMaker\TournamentMaker\TournamentMaker.Models\bin\Debug\TournamentMaker.Models.pdb
+E:\projects\Sourcetree\TournamentMaker\TournamentMaker\TournamentMaker.Models\obj\Debug\TournamentMaker.Models.csprojResolveAssemblyReference.cache
+E:\projects\Sourcetree\TournamentMaker\TournamentMaker\TournamentMaker.Models\obj\Debug\TournamentMaker.Models.dll
+E:\projects\Sourcetree\TournamentMaker\TournamentMaker\TournamentMaker.Models\obj\Debug\TournamentMaker.Models.pdb
