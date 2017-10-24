@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.Entity;
 using System.Threading.Tasks;
 using TournamentMaker.DataAccess;
 using TournamentMaker.Models;
+using TournamentMaker.UI.Admin.Interfaces;
 
 namespace TournamentMaker.UI.Admin.Data {
     public class PlayerDataService : IPlayerDataService {

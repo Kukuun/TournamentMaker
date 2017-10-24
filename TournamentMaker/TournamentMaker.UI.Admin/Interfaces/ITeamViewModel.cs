@@ -1,8 +1,6 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using TournamentMaker.Models;
+﻿using System.Threading.Tasks;
 
-namespace TournamentMaker.UI.Admin.ViewModels {
+namespace TournamentMaker.UI.Admin.Interfaces {
     public interface ITeamViewModel {
         Task LoadAsync();
     }

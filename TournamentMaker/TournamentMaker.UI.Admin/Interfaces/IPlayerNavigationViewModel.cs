@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 
 namespace TournamentMaker.UI.Admin.Interfaces {
-    public interface IPlayerViewModel {
+    public interface IPlayerNavigationViewModel {
         Task LoadAsync();
     }
 }

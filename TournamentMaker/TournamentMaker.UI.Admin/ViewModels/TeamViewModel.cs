@@ -1,7 +1,7 @@
 ﻿using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using TournamentMaker.Models;
-using TournamentMaker.UI.Admin.Data;
+using TournamentMaker.UI.Admin.Interfaces;
 
 namespace TournamentMaker.UI.Admin.ViewModels {
     public class TeamViewModel : ITeamViewModel {

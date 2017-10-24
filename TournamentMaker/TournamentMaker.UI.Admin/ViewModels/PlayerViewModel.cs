@@ -1,28 +1,16 @@
-﻿using System.Collections.ObjectModel;
-using System.Threading.Tasks;
-using TournamentMaker.Models;
-using TournamentMaker.UI.Admin.Data;
+﻿using System.Threading.Tasks;
+using TournamentMaker.UI.Admin.Interfaces;
 
 namespace TournamentMaker.UI.Admin.ViewModels {
     public class PlayerViewModel : IPlayerViewModel {
-        private IPlayerLookupDataService _playerLookupDataService;
-        
-        public ObservableCollection<LookupItem> Players { get; set; }
+        public IPlayerNavigationViewModel PlayerNavigationViewModel { get; }
 
-        public PlayerViewModel(IPlayerLookupDataService playerLookupDataService) {
-            _playerLookupDataService = playerLookupDataService;
-
-            Players = new ObservableCollection<LookupItem>();
+        public PlayerViewModel(IPlayerNavigationViewModel playerNavigationViewModel) {
+            PlayerNavigationViewModel = playerNavigationViewModel;
         }
 
         public async Task LoadAsync() {
-            var lookup = await _playerLookupDataService.GetFriendLookupAsync();
-
-            Players.Clear();
-
-            foreach (var item in lookup) {
-                Players.Add(item);
-            }
+            await PlayerNavigationViewModel.LoadAsync();
         }
     }
 }

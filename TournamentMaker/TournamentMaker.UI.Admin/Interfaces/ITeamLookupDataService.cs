@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using TournamentMaker.Models;
 
-namespace TournamentMaker.UI.Admin.Data {
+namespace TournamentMaker.UI.Admin.Interfaces {
     public interface ITeamLookupDataService {
         Task<IEnumerable<LookupItem>> GetTeamLookupAsync();
     }

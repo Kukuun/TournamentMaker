@@ -10,9 +10,6 @@
         WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="720" Width="1280">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
         <TabControl>
             <TabItem Header="Players" FontSize="18">
                 <view:PlayerView DataContext="{Binding PlayerViewModel}"/>

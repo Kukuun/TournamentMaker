@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using TournamentMaker.DataAccess;
 using TournamentMaker.Models;
+using TournamentMaker.UI.Admin.Interfaces;
 
 namespace TournamentMaker.UI.Admin.Data {
     public class LookupDataService : IPlayerLookupDataService, ITeamLookupDataService {

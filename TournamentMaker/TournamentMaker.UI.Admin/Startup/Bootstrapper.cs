@@ -1,6 +1,7 @@
 ﻿using Autofac;
 using TournamentMaker.DataAccess;
 using TournamentMaker.UI.Admin.Data;
+using TournamentMaker.UI.Admin.Interfaces;
 using TournamentMaker.UI.Admin.ViewModels;
 
 namespace TournamentMaker.UI.Admin.Startup {
@@ -14,8 +15,10 @@ namespace TournamentMaker.UI.Admin.Startup {
 
             builder.RegisterType<MainViewModel>().AsSelf();
             builder.RegisterType<PlayerViewModel>().As<IPlayerViewModel>();
-            builder.RegisterType<TeamViewModel>().As<ITeamViewModel>();
+            builder.RegisterType<PlayerNavigationViewModel>().As<IPlayerNavigationViewModel>();
             builder.RegisterType<PlayerDetailViewModel>().As<IPlayerDetailViewModel>();
+            builder.RegisterType<PlayerCreationViewModel>().As<IPlayerCreationViewModel>();
+            builder.RegisterType<TeamViewModel>().As<ITeamViewModel>();
 
             builder.RegisterType<LookupDataService>().AsImplementedInterfaces();
             builder.RegisterType<PlayerDataService>().As<IPlayerDataService>();

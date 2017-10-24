@@ -71,13 +71,26 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Interfaces\IPlayerCreationViewModel.cs" />
     <Compile Include="Interfaces\ITeamLookupDataService.cs" />
     <Compile Include="Interfaces\ITeamViewModel.cs" />
-    <Compile Include="ViewModels\IPlayerDetailViewModel.cs" />
+    <Compile Include="Interfaces\IPlayerDetailViewModel.cs" />
+    <Compile Include="Interfaces\IPlayerNavigationViewModel.cs" />
+    <Compile Include="ViewModels\PlayerCreationViewModel.cs" />
     <Compile Include="ViewModels\PlayerDetailViewModel.cs" />
+    <Compile Include="ViewModels\PlayerNavigationViewModel.cs" />
     <Compile Include="ViewModels\TeamViewModel.cs" />
     <Compile Include="Views\NavigationView.xaml.cs">
       <DependentUpon>NavigationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlayerCreationView.xaml.cs">
+      <DependentUpon>PlayerCreationView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlayerDetailView.xaml.cs">
+      <DependentUpon>PlayerDetailView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PlayerNavigationView.xaml.cs">
+      <DependentUpon>PlayerNavigationView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\PlayerView.xaml.cs">
       <DependentUpon>PlayerView.xaml</DependentUpon>
@@ -114,6 +127,18 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\NavigationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PlayerCreationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PlayerDetailView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PlayerNavigationView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
