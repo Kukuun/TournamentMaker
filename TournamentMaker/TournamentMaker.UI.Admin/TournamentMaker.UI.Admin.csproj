@@ -71,6 +71,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Events\OpenPlayerDetailViewEvent.cs" />
     <Compile Include="Interfaces\IPlayerCreationViewModel.cs" />
     <Compile Include="Interfaces\ITeamLookupDataService.cs" />
     <Compile Include="Interfaces\ITeamViewModel.cs" />

@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Prism.Events;
 using TournamentMaker.DataAccess;
 using TournamentMaker.UI.Admin.Data;
 using TournamentMaker.UI.Admin.Interfaces;
@@ -9,6 +10,8 @@ namespace TournamentMaker.UI.Admin.Startup {
         public IContainer Bootstrap() {
             var builder = new ContainerBuilder();
 
+            builder.RegisterType<EventAggregator>().As<IEventAggregator>().SingleInstance();
+
             builder.RegisterType<TournamentDbContext>().AsSelf();
 
             builder.RegisterType<MainWindow>().AsSelf();
@@ -18,6 +21,7 @@ namespace TournamentMaker.UI.Admin.Startup {
             builder.RegisterType<PlayerNavigationViewModel>().As<IPlayerNavigationViewModel>();
             builder.RegisterType<PlayerDetailViewModel>().As<IPlayerDetailViewModel>();
             builder.RegisterType<PlayerCreationViewModel>().As<IPlayerCreationViewModel>();
+
             builder.RegisterType<TeamViewModel>().As<ITeamViewModel>();
 
             builder.RegisterType<LookupDataService>().AsImplementedInterfaces();

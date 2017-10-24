@@ -2,9 +2,8 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:TournamentMaker.UI.Admin.Views"
-             xmlns:view="clr-namespace:TournamentMaker.UI.Admin.Views"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:localView="clr-namespace:TournamentMaker.UI.Admin.Views"
              xmlns:viewModel="clr-namespace:TournamentMaker.UI.Admin.ViewModels"
              mc:Ignorable="d" 
              d:DesignHeight="300" d:DesignWidth="300"
@@ -15,17 +14,11 @@
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="Auto"/>
         </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition/>
-            <RowDefinition Height="Auto"/>
-        </Grid.RowDefinitions>
 
-        <view:PlayerNavigationView DataContext="{Binding PlayerNavigationViewModel}"/>
+        <localView:PlayerNavigationView DataContext="{Binding PlayerNavigationViewModel}"/>
 
-        <view:PlayerDetailView Grid.Column="1" DataContext="{Binding PlayerDetailViewModel}"/>
+        <localView:PlayerDetailView Grid.Column="1" DataContext="{Binding PlayerDetailViewModel}"/>
 
-        <view:PlayerCreationView Grid.Column="2" DataContext="{Binding PlayerCreationViewModel}"/>
+        <localView:PlayerCreationView Grid.Column="2" DataContext="{Binding PlayerCreationViewModel}"/>
     </Grid>
 </UserControl>

@@ -18,6 +18,7 @@
         <StackPanel Grid.Row="1">
             <ListView BorderThickness="1" BorderBrush="Black" MaxHeight="250" 
                     ItemsSource="{Binding Players}"
+                    SelectedItem="{Binding SelectedPlayer, Mode=TwoWay}"
                     HorizontalAlignment="Left"
                     DisplayMemberPath="DisplayMember"
                     FontSize="12" Margin="5"/>
