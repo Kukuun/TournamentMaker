@@ -71,8 +71,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Interfaces\ITeamLookupDataService.cs" />
+    <Compile Include="Interfaces\ITeamViewModel.cs" />
+    <Compile Include="ViewModels\IPlayerDetailViewModel.cs" />
+    <Compile Include="ViewModels\PlayerDetailViewModel.cs" />
+    <Compile Include="ViewModels\TeamViewModel.cs" />
+    <Compile Include="Views\NavigationView.xaml.cs">
+      <DependentUpon>NavigationView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\PlayerView.xaml.cs">
       <DependentUpon>PlayerView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TeamView.xaml.cs">
+      <DependentUpon>TeamView.xaml</DependentUpon>
     </Compile>
     <Page Include="Views\BracketView.xaml">
       <SubType>Designer</SubType>
@@ -91,7 +102,7 @@
     <Compile Include="Interfaces\IPlayerDataService.cs" />
     <Compile Include="Data\PlayerDataService.cs" />
     <Compile Include="Startup\Bootstrapper.cs" />
-    <Compile Include="ViewModels\IPlayerViewModel.cs" />
+    <Compile Include="Interfaces\IPlayerViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
     <Compile Include="ViewModels\PlayerViewModel.cs" />
     <Compile Include="ViewModels\ViewModelBase.cs" />
@@ -102,7 +113,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\NavigationView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\PlayerView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TeamView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

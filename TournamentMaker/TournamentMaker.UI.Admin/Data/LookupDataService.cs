@@ -7,7 +7,7 @@ using TournamentMaker.DataAccess;
 using TournamentMaker.Models;
 
 namespace TournamentMaker.UI.Admin.Data {
-    public class LookupDataService : IPlayerLookupDataService {
+    public class LookupDataService : IPlayerLookupDataService, ITeamLookupDataService {
         private Func<TournamentDbContext> _contextCreator;
 
         public LookupDataService(Func<TournamentDbContext> contextCreator) {
@@ -18,7 +18,16 @@ namespace TournamentMaker.UI.Admin.Data {
             using (var context = _contextCreator()) {
                 return await context.Players.AsNoTracking().Select(p => new LookupItem {
                     Id = p.Id,
-                    DisplayMember = p.FirstName + " \"" + p.Alias + "\"" + p.LastName
+                    DisplayMember = p.FirstName + " \"" + p.Alias + "\" " + p.LastName
+                }).ToListAsync();
+            }
+        }
+
+        public async Task<IEnumerable<LookupItem>> GetTeamLookupAsync() {
+            using (var context = _contextCreator()) {
+                return await context.Teams.AsNoTracking().Select(t => new LookupItem {
+                    Id = t.Id,
+                    DisplayMember = t.Name
                 }).ToListAsync();
             }
         }

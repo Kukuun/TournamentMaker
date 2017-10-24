@@ -13,9 +13,9 @@ namespace TournamentMaker.UI.Admin.Data {
             _contextCreator = contextCreator;
         }
 
-        public async Task<List<Player>> GetAllAsync() {
+        public async Task<Player> GetByIdAsync(int playerId) {
             using (var context = _contextCreator()) {
-                return await context.Players.AsNoTracking().ToListAsync();
+                return await context.Players.AsNoTracking().SingleAsync(p => p.Id == playerId);
             }
         }
     }

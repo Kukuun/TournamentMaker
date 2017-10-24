@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using TournamentMaker.Models;
 
 namespace TournamentMaker.UI.Admin.Data {
-    public interface IPlayerDataService {
-        Task<Player> GetByIdAsync(int playerId);
+    public interface ITeamLookupDataService {
+        Task<IEnumerable<LookupItem>> GetTeamLookupAsync();
     }
 }

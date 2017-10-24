@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TournamentMaker.UI.Admin"
         xmlns:view="clr-namespace:TournamentMaker.UI.Admin.Views"
+        xmlns:viewModel="clr-namespace:TournamentMaker.UI.Admin.ViewModels"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         Title="MainWindow" Height="720" Width="1280">
@@ -13,16 +14,16 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <TabControl>
-            <TabItem Header="Players">
+            <TabItem Header="Players" FontSize="18">
                 <view:PlayerView DataContext="{Binding PlayerViewModel}"/>
             </TabItem>
-            <TabItem Header="Teams">
-                <Label Content="This is the teams view."/>
+            <TabItem Header="Teams" FontSize="18">
+                <view:TeamView DataContext="{Binding TeamViewModel}"/>
             </TabItem>
-            <TabItem Header="Tournament">
+            <TabItem Header="Tournament" FontSize="18">
                 <Label Content="This is the tournaments view."/>
             </TabItem>
-            <TabItem Header="Brackets">
+            <TabItem Header="Brackets" FontSize="18">
                 <view:BracketView/>
             </TabItem>
         </TabControl>

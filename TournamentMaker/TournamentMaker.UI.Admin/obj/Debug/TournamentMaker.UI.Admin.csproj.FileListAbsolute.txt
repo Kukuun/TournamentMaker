@@ -96,3 +96,8 @@ D:\Projects\SourceTree\TournamentMaker\TournamentMaker\TournamentMaker.UI.Admin\
 D:\Projects\SourceTree\TournamentMaker\TournamentMaker\TournamentMaker.UI.Admin\obj\Debug\TournamentMaker.UI.Admin.csproj.CoreCompileInputs.cache
 D:\Projects\SourceTree\TournamentMaker\TournamentMaker\TournamentMaker.UI.Admin\obj\Debug\TournamentMaker.UI.Admin.exe
 D:\Projects\SourceTree\TournamentMaker\TournamentMaker\TournamentMaker.UI.Admin\obj\Debug\TournamentMaker.UI.Admin.pdb
+D:\Projects\SourceTree\TournamentMaker\TournamentMaker\TournamentMaker.UI.Admin\obj\Debug\Views\TeamView.g.cs
+D:\Projects\SourceTree\TournamentMaker\TournamentMaker\TournamentMaker.UI.Admin\obj\Debug\Views\TeamView.baml
+D:\Projects\SourceTree\TournamentMaker\TournamentMaker\TournamentMaker.UI.Admin\obj\Debug\Views\NavigationView.g.cs
+D:\Projects\SourceTree\TournamentMaker\TournamentMaker\TournamentMaker.UI.Admin\obj\Debug\Views\NavigationView.baml
+D:\Projects\SourceTree\TournamentMaker\TournamentMaker\TournamentMaker.UI.Admin\obj\Debug\App.baml
