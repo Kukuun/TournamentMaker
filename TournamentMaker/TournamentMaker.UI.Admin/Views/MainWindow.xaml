@@ -7,11 +7,24 @@
         xmlns:view="clr-namespace:TournamentMaker.UI.Admin.Views"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="720" Width="1280">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <view:PlayerView DataContext="{Binding PlayerViewModel}"/>
+        <TabControl>
+            <TabItem Header="Players">
+                <view:PlayerView DataContext="{Binding PlayerViewModel}"/>
+            </TabItem>
+            <TabItem Header="Teams">
+                <Label Content="This is the teams view."/>
+            </TabItem>
+            <TabItem Header="Tournament">
+                <Label Content="This is the tournaments view."/>
+            </TabItem>
+            <TabItem Header="Brackets">
+                <view:BracketView/>
+            </TabItem>
+        </TabControl>
     </Grid>
 </Window>
